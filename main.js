@@ -59,6 +59,8 @@
 //   console.log("Bu son toq va to'rt xonali");
 // }
 
+//O'sish tartibida
+
 // 3 ta son kiritiladi
 // var a = Number(prompt("1-sonni kiriting"));
 // var b = Number(prompt("2-sonni kiriting"));
@@ -72,3 +74,59 @@
 // var result = numbers.join("");
 
 // console.log("Natija:", result);
+
+//Eng kihcigini topish
+
+// var a = Number(prompt("1-uch xonali sonni kiriting"));
+// var b = Number(prompt("2-uch xonali sonni kiriting"));
+// var c = Number(prompt("3-uch xonali sonni kiriting"));
+// if (a < 100 || a > 999 || b < 100 || b > 999 || c < 100 || c < 999) {
+//   console.log("Iltimos 3 xonali son kiritng");
+// } else {
+//   var min = Math.min(a, b, c);
+//   console.log("Eng kichik son", min);
+// }
+
+// var number = prompt("Son kiriting (kamida 3 xonlai bo'lsin)");
+// console.log(Math(number) * 100);
+
+//Speed
+
+// var number = prompt("Tezlikni kiriting");
+// var result1 = number - 70;
+// var result2 = result1 / 5;
+// if (number <= 70) {
+//   console.log("Hammasi yaxshi");
+// } else if (result2 <= 1) {
+//   console.log("Sizda 1-point bor");
+// } else if (result2 <= 2) {
+//   console.log("Sizda 2-point bor");
+// } else if (result2 <= 3) {
+//   console.log("Sizda 3-point bor");
+// } else if (result2 <= 4) {
+//   console.log("Sizda 4-point bor");
+// } else if (result2 <= 5) {
+//   console.log("Sizda 5-point bor");
+// } else if (result2 <= 6) {
+//   console.log("Sizda 6-point bor");
+// } else if (result2 <= 7) {
+//   console.log("Sizda 7-point bor");
+// } else if (result2 <= 8) {
+//   console.log("Sizda 8-point bor");
+// } else if (result2 <= 9) {
+//   console.log("Sizda 9-point bor");
+// } else if (result2 <= 10) {
+//   console.log("Sizda 10-point bor");
+// } else if (result2 <= 11) {
+//   console.log("Sizda 11-point bor");
+// } else if (result2 <= 12) {
+//   console.log("Prava reshon");
+// } else if (result2 >= 12) {
+//   console.log("Prava reshon");
+// }
+
+//Foydalanuvchi yoshini aniqlash
+
+// var year = prompt("Yilingizni kiriting");
+// var age = 2025 - year;
+// console.log(age);
